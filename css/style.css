@@ -220,6 +220,8 @@ a:hover, a:focus{border:none;}
 .tabs-content__title{padding:0 0 9px 30px; position:relative;}
 .tabs-content__title-icon{position:absolute; top:-9px; left:0; font:32px/1 'icomoon'; color:#ffad0d;}
 .tabs-content__title-text{font:bold 20px/1.1 'ProximaNova'; text-transform:uppercase; color:#ffad0d;}
+.tabs-content__title-text a{border-bottom: 1px dashed #ffad0d;color:#ffad0d;text-decoration:none;line-height: 1;display: inline-block;}
+.tabs-content__title-text a:hover{border-bottom:none;}
 
 .rent__top{padding:46px 20px 11px;}
 .rent__bottom{min-height:241px; overflow:hidden; background: transparent;}
